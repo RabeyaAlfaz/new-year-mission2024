@@ -274,3 +274,16 @@ border-bottom-right-radius: 50px;
    gap: 20px;
    
 }
+
+
+/* mobile responsiveness */
+@media screen and (max-width: 738px) {
+  .enjoy-container{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .text-portfolio-container>p{
+   display: none;
+  }
+ }
